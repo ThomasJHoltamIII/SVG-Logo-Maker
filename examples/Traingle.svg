@@ -2,5 +2,5 @@
 
   <polygon points="150,20 220,180 80,180" fill="red" />
 
-  <text x="150" y="125" font-size="60" text-anchor="middle" fill="white">${logoType}</text>
+  <text x="150" y="125" font-size="60" text-anchor="middle" fill="white">SVG</text>
 </svg>

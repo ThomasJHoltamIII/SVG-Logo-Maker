@@ -23,7 +23,7 @@ function makeSVG(logoShape, logoColor, textColor, logoType) {
 
 function writeToFile(logoType, logoRender) {
     fs.writeFile('logo.svg', logoRender, () => {
-        console.log('Logo created successfully!');
+        console.log('Generated logo.svg!');
     });
 }
 
@@ -57,9 +57,9 @@ function init() {
 
         const logoRender = makeSVG(logoShape, logoColor, textColor, logoType);
         writeToFile(logoType, logoRender);
+
     });
 }
 
 init();
-
 
